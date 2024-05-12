@@ -1,0 +1,139 @@
+.container {
+    width: 1000px;
+    height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: aquamarine;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.corpo{
+    border-top: 360px solid #B9CC6D; /* altura */
+    border-left: 100px solid transparent; /* esquerda */
+    border-right: 100px solid transparent; /* direita */
+    height: 10px;
+    width: 200px;   
+}
+.pé{
+    width: 150px;
+    height: 150px;
+    background-color: #747474;
+    border: 15px solid #424242;
+    border-radius: 50%;
+}
+.cabeca{
+    border-bottom: 180px solid #B9CC6D;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    height: 0;
+    width: 120px;
+    border-radius: 200px 200px 0 0;
+}
+.olho-left{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    right: 40px;
+    top: 35px;
+    border: 15px inset green;
+}
+.olho-right{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+    bottom: 24px;
+    border: 15px inset green;
+}
+.braço-left{
+
+}
+.antena{
+    width: 5px;
+    height: 100px;
+    background-color: #424242;
+    position: relative;
+    bottom: 240px;
+}
+.braço-left {
+    width: 200px;
+    height: 100px;
+    background-color: #B9CC6D;   
+    position:relative;
+    border-radius: 0px 100px 0 0px;
+    bottom: 323px;
+    right: 230px;
+    rotate: 285deg;
+  }
+.braço-right{
+    width: 200px;
+    height: 100px;
+    background-color: #B9CC6D;   
+    position:relative;
+    border-radius: 0px 0px 100px 0px;
+    bottom: 424px;
+    left: 228px;
+    rotate: -105deg;
+}
+.mao-left{
+    width: 100px;
+    height: 100px;
+    background-color: #424242; 
+    border-radius: 50%;
+    position: relative;
+    right: 270px;
+    bottom: 375px;
+}
+.mao-right{
+    width: 100px;
+    height: 100px;
+    background-color: #424242; 
+    border-radius: 50%;
+    position: relative;
+    left: 270px;
+    bottom: 475px;
+}
+.nucleo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #9cb6ff;
+    display: block;
+    position: relative;
+    bottom: 810px;
+}
+.nucleofora{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(142, 216, 250, 0.514);
+    display: block;
+    position: relative;
+    bottom: 700px;
+}
+.bola{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #424242;
+    position: relative;
+    display: block;
+    bottom: 22  0px;
+}

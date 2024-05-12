@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+    padding: 0px
+    }
+.container {
+    padding-top: 200px;
+    width: 100%;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color:#00d5ff;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+}
+.corpo{
+    z-index: 1;
+    height: 150px;
+    width: 700px;
+    position: relative;
+    display: block;
+    border-radius: 25% 45% 40px 40px;
+    background-color: orange;
+    border: 1px solid black;
+}
+.roda1{
+    z-index: 5;
+    height: 110px;
+    width: 110px;
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    background-color: white;
+    border: 7px solid #000000;
+    top: 60px;
+    right: 200px;
+}
+.roda2{
+    z-index: 5;
+    height: 110px;
+    width: 110px;
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 7px solid #000000;
+    bottom: 63px;
+    left: 210px;
+}
+.cima{
+    z-index: 1;
+    height: 223px;
+    width: 470px;
+    position: relative;
+    display: block;
+    right: 10px;
+    bottom: 324px;
+    background-color: #00d5ff;
+    clip-path: polygon(24% 50%, 69% 46%, 100% 100%, 0% 100%);
+    border-radius: 25% 30%  20%;
+    border: 1px solid black;
+}
+.farol{
+    z-index: 3;
+    height: 25px;
+    width: 60px;
+    position: relative;
+    display: block;
+    border-radius: 0px 50% 0% 60%;
+    background-color: orange;
+    left: 310px;
+    top: 25px;
+    border: 1px solid black;
+}
+.luz{
+    border-top: 20px solid rgb(255, 255, 0);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0;
+    width: 20px;
+    position: relative;
+    top: 6px;
+    left: 40px;
+    rotate: 90deg;
+}
+.janela0{
+    z-index: 1;
+    height: 180px;
+    width: 360px;
+    position: relative;
+    display: block;
+    right: 30px;
+    bottom: 405px;
+    background-color: rgb(0, 247, 255);
+    clip-path: polygon(24% 50%, 69% 44%, 100% 100%, 0% 100%);
+}
+.maçaneta{
+    z-index: 4;
+    height: 7px;
+    width: 30px;
+    position: relative;
+    display: block;
+    border-radius: 10px 10px 8px 15px;
+    background-color: orange;
+    border: 0.5px solid black;
+    top: 15px;
+    right: 77px;
+}
+.porta{
+    z-index: 3;
+    height: 120px;
+    width: 220px;
+    position: relative;
+    display: block;
+    background-color: orange;
+    border: 1px solid black;
+    bottom: 324px;
+    left: 15px;
+    border-radius: 0px 0px 20% 10px; 
+}
+.listra{
+    z-index: 2;
+    height: 24px;
+    width: 700px;
+    position: relative;
+    display: block;
+    background-color: #4169e1;
+    right: 0px;
+    border-radius: 0 5px 0 0;
+    bottom: 395px;
+}
+.listra-p{
+    z-index: 4;
+    height: 24px;
+    width: 220px;
+    position: relative;
+    display: block;
+    background-color: #4169e1;
+    right: 0px;
+    bottom: 416px;
+    left: 15px;
+}
+.janela{
+    height: 140px;
+    width: 5px;
+    background-color: rgb(0, 213, 255);
+    border: 1px solid rgba(0, 0, 255, 0.359);
+    rotate: -50deg;
+    position: relative;
+    left: 154px;
+    bottom: 380px;
+}
